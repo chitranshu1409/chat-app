@@ -1,0 +1,129 @@
+.chat-app-heading{
+    text-align: center;
+}
+
+.chat-box{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    /* border: 5px solid black; */
+    margin: auto;
+    border-radius: 5px;
+}
+
+.user-details,
+.chat-messenger{
+    display: inline-block;
+}
+
+
+.user-details{
+    width: 30%;
+    height: 98%;
+    border: 1px solid black;
+    margin-top: 0.5%;
+    margin-left: 10px;
+}
+
+.chat-messenger{
+    width: 68%;
+    height: 98%;
+    border: 5px solid black;
+    margin-top: 0.5%;
+    margin-left: 10px;
+    position: relative;
+
+
+}
+
+.send-message{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid #ccc; */
+    
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.message-input{
+    width: 90%;
+    height: 95%;
+    padding: 0;
+    font-size: 25px;
+    /* box-shadow: 1px 2px 2px #ccc; */
+}
+
+.send-button{
+    width: 8%;
+}
+
+.gt-logo{
+    font-size: 30px;
+}
+
+.chat-application{
+    display: none;
+}
+
+.current-user{
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:green ;
+}
+
+.active-user{
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(217, 138, 41) ;
+    margin-top: 5px;
+}
+
+
+.chat{
+    width: 100%;
+    
+    margin: 5px;
+    
+    
+    /* border: 2px solid purple; */
+}
+.chat::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.my-chat{
+    width: 55%;
+    border-radius:25px;
+    background-color: aquamarine;
+    margin-right: 10px;
+    float: right;
+    text-align: right;
+    
+
+    /* border: 2px solid yellow; */
+}
+
+.another-chat{
+    
+    width: 55%;
+    border-radius: 15px;
+    background-color: rgb(94, 60, 179);
+    color: rgb(255, 255, 255);
+    float: left;
+    /* border: 2px solid rgb(176, 14, 28); */
+    
+}
+
+.chat-message{
+    font-size: 35px;
+    margin: 10px;
+}
